@@ -5,4 +5,7 @@ package com.app.Model;
  */
 
 public class UserDetails {
+
+    public String userName, userEmail, password;
+
 }

@@ -1,10 +1,10 @@
-package com.app.Retrofit;
+package com.app.Retrofit.Request;
 
 /**
  * Created by archirayan on 05-May-17.
  */
 
-public class RoomRequest {
+public class UserRequest {
     String securityToken, eMail, userId, schoolId;
 
     public String getSecurityToken() {

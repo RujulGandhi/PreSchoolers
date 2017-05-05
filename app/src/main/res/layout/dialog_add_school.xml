@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
+    <EditText
+        android:id="@+id/add_school_schoolname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/collegename"
+        android:inputType="textPersonName"
+        android:padding="@dimen/_5sdp" />
+
+    <EditText
+        android:id="@+id/add_school_schoolweb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/collegeweb"
+        android:inputType="textPersonName"
+        android:padding="@dimen/_5sdp" />
+
+    <TextView
+        android:id="@+id/add_school_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="Submit" />
 </LinearLayout>
