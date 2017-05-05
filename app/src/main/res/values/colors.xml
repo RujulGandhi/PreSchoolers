@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#a2c842</color>
+    <color name="white">#ffffff</color>
+    <color name="graylight">#939393</color>
+    <color name="bgcolor">#F4F6F6</color>
+    <color name="bg_nav">#ffffff</color>
+    <color name="bg_time">#8f8e8d</color>
+    <color name="bg_msg">#595651</color>
+    <color name="bg_sendto">#6b6966</color>
+    <color name="bg_sendbtn">#7695cc</color>
+    <color name="bg_awardbtn">#ffbb00</color>
+    <color name="transparent">#00000000</color>
+
+
+
+    <color name="teachername1">#6b6966</color>
+    <color name="teachername2">#7f7d7c</color>
+    <color name="teachertime">#585551</color>
+    <color name="teacherphotos">#595651</color>
+    <color name="roungbg">#80a2ab</color>
+
+    <color name="su_background_color">#F1F1F1</color>
+
+    <!--student profile-->
+    <color name="teacher_info">#71608c</color>
+    <color name="student_allergies">#631e37</color>
+    <color name="student_medication">#911b25</color>
+    <color name="student_guardian">#595651</color>
+    <color name="student_detail">#595651</color>
+</resources>

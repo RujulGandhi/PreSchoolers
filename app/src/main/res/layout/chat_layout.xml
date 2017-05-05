@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:weightSum="2"
+        android:orientation="horizontal">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="wrap_content"
+            android:layout_weight="0.7"
+            android:src="@color/bg_awardbtn"
+            android:layout_height="@dimen/_100sdp" />
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_weight="1.5"
+            android:src="@drawable/chatout"
+            android:layout_height="@dimen/_100sdp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_weight="1.5"
+            android:src="@drawable/chatin"
+            android:layout_height="@dimen/_100sdp" />
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="wrap_content"
+            android:layout_weight="0.3"
+            android:src="@color/bg_awardbtn"
+            android:layout_height="@dimen/_100sdp"
+            android:id="@+id/circleImageView5" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
